@@ -8,7 +8,10 @@ const body = document.querySelector('body')
 if (numberOne > numberTwo){
     console.log(numberOne);
     body.innerHTML = numberOne;
-}else{
+}else if(numberOne < numberTwo) {
     console.log(numberTwo);
     body.innerHTML = numberTwo;
+} else {
+    console.log('i numeri sono uguali');
+    body.innerHTML = 'i numeri sono uguali';
 }
