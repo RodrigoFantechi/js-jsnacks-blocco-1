@@ -36,10 +36,6 @@ do {
         i++
 } while (i < ospiti.length);
 
-// OPPURE 
 
-if (ospiti.includes(userName)){
-    valid = 'lei è il benvenuto Messere';
-}
 
 alert(valid);
