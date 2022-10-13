@@ -12,7 +12,7 @@ Il programma stampa la somma di tutti i numeri inseriti.  */
 
 
 /* Il software deve chiedere per 10 volte all’utente di inserire un numero.
-Il programma stampa la somma di tutti i numeri inseriti.  con ciclo For */
+Il programma stampa la somma di tutti i numeri inseriti.  con ciclo while */
 
 
 const body = document.querySelector('body')
