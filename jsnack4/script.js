@@ -26,6 +26,16 @@ for (let i = 0; i < ospiti.length; i++) {
         }
         i++
 }
+
+//OPPIRE 
+do {
+    const element = ospiti[i];
+        if (element===userName){
+            valid = 'lei è il benvenuto Messere';
+        }
+        i++
+} while (i < ospiti.length);
+
 // OPPURE 
 
 if (ospiti.includes(userName)){
