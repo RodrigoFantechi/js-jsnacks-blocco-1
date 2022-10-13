@@ -27,7 +27,7 @@ for (let i = 0; i < ospiti.length; i++) {
         i++
 }
 
-//OPPIRE 
+//OPPURE 
 do {
     const element = ospiti[i];
         if (element===userName){
