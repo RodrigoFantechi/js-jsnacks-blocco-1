@@ -7,13 +7,13 @@ const ospiti =[
     'Ugo'
 ];
 
-const userName = prompt('mi fornisca gentilmente il suo nome Bonuomo');
-let valid = 'non può entrare villano';
+const userName = prompt('inserire nome');
+let valid = 'non può entrare';
 
 for (let i = 0; i < ospiti.length; i++) {
     const element = ospiti[i];
     if (element===userName){
-        valid = 'lei è il benvenuto Messere';
+        valid = 'lei è il benvenuto';
     }
 } 
 
@@ -22,7 +22,7 @@ for (let i = 0; i < ospiti.length; i++) {
     while ( i < ospiti.length) {
         const element = ospiti[i];
         if (element===userName){
-            valid = 'lei è il benvenuto Messere';
+            valid = 'lei è il benvenuto';
         }
         i++
 }
@@ -31,7 +31,7 @@ for (let i = 0; i < ospiti.length; i++) {
 do {
     const element = ospiti[i];
         if (element===userName){
-            valid = 'lei è il benvenuto Messere';
+            valid = 'lei è il benvenuto';
         }
         i++
 } while (i < ospiti.length);
